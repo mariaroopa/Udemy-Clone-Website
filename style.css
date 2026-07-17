@@ -12,7 +12,6 @@ body{
    border-bottom: solid gainsboro 1px;
    gap: 60px;
    align-items: center;
-   flex-wrap: wrap;
 }
 
 .navbar__sec1{
