@@ -5,7 +5,6 @@
 body{
     font-family: "Gabarito", sans-serif;
 }
-@media (max-width:768px){
 .navbar{
    padding:10px; 
    display: flex;
@@ -15,7 +14,7 @@ body{
    align-items: center;
    flex-wrap: wrap;
 }
-}
+
 .navbar__sec1{
     display: flex;
     gap: 20px;
