@@ -1,5 +1,3 @@
-#Udemy-Clone-Website
-A simple Udemy Clone Website built using HTML5 and CSS3 with a responsive and modern user interface.
 # Udemy Clone Website
 
 This project is a **Udemy Clone** developed using **HTML5**, **CSS3**, and **Flexbox**. It recreates the look and feel of the Udemy homepage with a clean, responsive, and user-friendly interface. The project focuses on practicing front-end web development concepts such as page structure, layouts, and responsive design using only HTML and CSS.
