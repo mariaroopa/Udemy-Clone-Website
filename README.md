@@ -1,8 +1,8 @@
 # Udemy Clone Website
-
+___
 This project is a **Udemy Clone** developed using **HTML5**, **CSS3**, and **Flexbox**. It recreates the look and feel of the Udemy homepage with a clean, responsive, and user-friendly interface. The project focuses on practicing front-end web development concepts such as page structure, layouts, and responsive design using only HTML and CSS.
 ___
-✨ Features
+##✨ Features
 
 * Responsive navigation bar
 * Course search bar
@@ -13,18 +13,18 @@ ___
 * Clean and modern user interface
 * Simple footer design
 * Mobile-friendly responsive layout
-  
-🛠️ Technologies Used
+ ___ 
+##🛠️ Technologies Used
 
 * HTML5
 * CSS3
 * Flexbox
-
-🎯 Purpose
+___
+##🎯 Purpose
 
 The main objective of this project is to strengthen my front-end development skills by building a real-world website clone using only HTML and CSS, without using any frameworks or JavaScript.
-
-🚀 Future Improvements
+___
+##🚀 Future Improvements
 
 * Add JavaScript for interactive functionality
 * Implement user authentication (Login & Sign Up)
