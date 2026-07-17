@@ -35,7 +35,7 @@ The main objective of this project is to strengthen my front-end development ski
 * Improve responsiveness for all screen sizes
 * Add dark mode support
 * Enhance UI with animations and transitions
-
+___
 ## 👨‍💻 Author
 **Maria Roopa J -**
 GitHub: https://github.com/mariaroopa
