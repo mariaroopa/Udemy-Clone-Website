@@ -1,7 +1,7 @@
 # Udemy Clone Website
 
 This project is a **Udemy Clone** developed using **HTML5**, **CSS3**, and **Flexbox**. It recreates the look and feel of the Udemy homepage with a clean, responsive, and user-friendly interface. The project focuses on practicing front-end web development concepts such as page structure, layouts, and responsive design using only HTML and CSS.
-
+___
 ✨ Features
 
 * Responsive navigation bar
@@ -36,10 +36,7 @@ The main objective of this project is to strengthen my front-end development ski
 * Add dark mode support
 * Enhance UI with animations and transitions
 
-👨‍💻 Author
 
-Maria Roopa J
-GitHub:https://github.com/mariaroopa
 
 
 
