@@ -37,7 +37,7 @@ The main objective of this project is to strengthen my front-end development ski
 * Enhance UI with animations and transitions
 
 ## 👨‍💻 Author
-**Maria Roopa J**
+**Maria Roopa J -**
 GitHub: https://github.com/mariaroopa
 
 
