@@ -214,6 +214,8 @@ gap: 5px;
     padding: 30px;
     background-color:black;
     color: white;
+    margin: 10px;
+    gap: 10px;
 }
 .footer__one{
     display: flex;
@@ -262,5 +264,8 @@ gap: 5px;
     }
     .navbar__sec4{
         display: block;
+    }
+    .footer{
+        flex-basis: 100%;
     }
 }
