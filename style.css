@@ -12,6 +12,10 @@ body{
    border-bottom: solid gainsboro 1px;
    gap: 60px;
    align-items: center;
+   position: sticky;
+   top: 0;
+   background-color: white;
+   z-index: 1;
 }
 
 .navbar__sec1{
@@ -29,6 +33,7 @@ body{
     border-radius: 30px;
     align-items: center;
     gap: 10px;
+    background-color:transparent;
 }
 .navbar__sec2 input{
     border: none;
@@ -50,8 +55,38 @@ color: white;
 background-color: blue;
 color: white;
 }
+.Teach-on-Udemy{
+    position: relative;
+    cursor: pointer;
+}
+.Teach-on-Udemy:hover .Teach-on-Udemy__popup{
+display: block;
+}
+.Teach-on-Udemy__popup{
+    position: absolute;
+    background-color: white;
+    border: solid black 1px;
+    width:150px;
+    top: 30px;
+    padding: 20px;
+    right: 0;
+    display: none;
+}
+.sales-image{
+    position: relative;
+}
 .sales-image img{
     width: 100%;
+    padding: 10px;
+}
+.sales-image__offer{
+    width:35%;
+    border: solid black 2px;
+    background-color: white;
+    padding: 2%;
+    position: absolute;
+    top: 20%;
+    left:10%;
 }
 .recommended-courses{
     padding: 10px;
