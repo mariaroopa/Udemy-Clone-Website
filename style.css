@@ -9,18 +9,19 @@ body{
    padding:10px; 
    display: flex;
    justify-content: space-between;
-   border-bottom: solid gainsboro 1px;
-   gap: 60px;
+   border-bottom: solid black 1px;
+   gap: 10px;
    align-items: center;
    position: sticky;
    top: 0;
    background-color: white;
    z-index: 1;
+   margin:10px ;
 }
 
 .navbar__sec1{
     display: flex;
-    gap: 20px;
+    gap: 15px;
     align-items: center;
 }
 .navbar__sec1__title{
@@ -34,6 +35,7 @@ body{
     align-items: center;
     gap: 10px;
     background-color:transparent;
+    display: flex;
 }
 .navbar__sec2 input{
     border: none;
@@ -44,7 +46,9 @@ body{
 }
 .navbar__sec3{
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px;
 }
 .navbar__sec3__login:focus{
 background-color: blue;
@@ -54,6 +58,9 @@ color: white;
 .navbar__sec3__sign:focus{
 background-color: blue;
 color: white;
+}
+.navbar__sec4{
+    display: none;
 }
 .Teach-on-Udemy{
     position: relative;
@@ -134,9 +141,14 @@ display: block;
     padding: 10px;
 
 }
+.course-card{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
+}
 .course-card img{
-    width:250px;
-    height:50%;
+    width: 100%;
+    height: 50%;
 }
 .recommended__title{
 font-size: 30px;
@@ -181,7 +193,10 @@ font-weight: bolder;
     font-weight: lighter;
 }
 .course-card__sec{
-    width: 250px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
+
 }
 .course-card__sec img{
     width: 100%;
@@ -226,4 +241,26 @@ gap: 5px;
 }
 .footer p:hover{
     border-bottom: solid white 1px;
+}
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .course-card{
+        flex-basis: 40%;
+    }
+    .course-card__sec{
+        flex-basis: 40%;
+    }
+    .categories{
+        display: none;
+    }
+    .navbar__sec2,.navbar__sec3{
+        display: none;
+    }
+    .navbar__sec4{
+        display: block;
+    }
 }
