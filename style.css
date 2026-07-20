@@ -211,14 +211,13 @@ padding: 10px;
 gap: 5px;
 }
 .footer{
-    padding: 20px;
+    padding: 30px;
     background-color:black;
     color: white;
-    margin: 10px;
+    
 }
 .footer__one{
     display: flex;
-    gap: 20px;
     justify-content: space-between;
     border-bottom: solid white 1px;
     
