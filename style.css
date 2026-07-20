@@ -211,11 +211,10 @@ padding: 10px;
 gap: 5px;
 }
 .footer{
-    padding: 30px;
+    padding: 20px;
     background-color:black;
     color: white;
     margin: 10px;
-    gap: 10px;
 }
 .footer__one{
     display: flex;
