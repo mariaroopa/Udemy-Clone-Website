@@ -72,6 +72,27 @@ display: block;
     right: 0;
     display: none;
 }
+.categories{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+.categories p{
+    background-color: rgb(196, 43, 196);
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border: solid purple 1px;
+
+}
+.categories p:hover{
+    transition: 1s;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    border: solid purple 1px;
+}
 .sales-image{
     position: relative;
 }
@@ -87,6 +108,20 @@ display: block;
     position: absolute;
     top: 20%;
     left:10%;
+    animation-name: zoom;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+@keyframes zoom{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 .recommended-courses{
     padding: 10px;
